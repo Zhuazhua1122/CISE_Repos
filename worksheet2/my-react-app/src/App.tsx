@@ -9,7 +9,7 @@ class App extends Component<{}, State> {
     super(props);
     this.state = {
       count: 0,
-    };
+    }; 
   }
 
   makeIncrementer = (amount: number) => () =>
